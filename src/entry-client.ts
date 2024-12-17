@@ -6,7 +6,7 @@ const ssr = createSsrExchange(true);
 
 const ssrData = window.__URQL_DATA__;
 
-console.log(ssrData)
+console.log('Restore', ssrData)
 ssr.restoreData(ssrData);
 
 
